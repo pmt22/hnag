@@ -8,4 +8,30 @@ HNAG comes from our need for a tool for managing our ordering, debt between us (
 
 ## Services
 
+There are currently 3 modules:
+1. Order module
+2. Debt module
+3. Exhibition module
+
 ## Technical Stack
+
+### Frontend
+
+ReactJS
+
+### Build tool
+
+Gradle
+
+### Database
+
+MongoDB
+
+### Frameworks
+
+Spring
+
+### Other tools
+
+1. GraphQL
+2. Docker
