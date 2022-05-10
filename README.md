@@ -17,7 +17,7 @@ There are currently 3 modules:
 
 ### Frontend
 
-ReactJS
+React
 
 ### Build tool
 
