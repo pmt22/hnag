@@ -30,18 +30,18 @@ flowchart BT
          HNAG 
       end
       
-      User-module <===> GUI
+      User-service <===> GUI
       
       subgraph Services
-         Central-module <--> User-module
+         Central-service <--> User-service
        
-         Order-module <--> Central-module
+         Order-service <--> Central-service
        
-         Debt-module <--> Central-module
+         Debt-service <--> Central-service
        
-         Exhibition-module <--> Central-module
+         Exhibition-service <--> Central-service
        
-         Others <-.-> Central-module
+         Other-services <-.-> Central-service
       end
       
       Persistence <======> Services
