@@ -4,34 +4,30 @@ HNAG is a web app for internal use and a place for us to experience designing an
 
 ## Description
 
-HNAG comes from our need for a tool for managing our ordering, debt between us (could be more in the future)
+HNAG comes from our need for a tool for managing our ordering, debt between us (could be more in the future). 
+The services/modules are built independently with developer's own choice. 
 
-## Services
+## Modules
 
-There are currently 3 modules:
-1. Order module
+There are currently 5 modules:
+1. Order module: taking, processing, managing orders from users. This service should be able to handle many request concurrently.
 2. Debt module
 3. Exhibition module
+4. User module: authentication, the only gateway for frontend making contact with the services. 
+5. Central module: the bridge that connect all services, dispatching request to the right service.
+
+## Architecture
+
+
 
 ## Technical Stack
 
-### Frontend
+### Order module
 
-React
+### Debt module
 
-### Build tool
+### Exhibition module
 
-Gradle
+### User module
 
-### Database
-
-MongoDB
-
-### Frameworks
-
-Spring
-
-### Other tools
-
-1. GraphQL
-2. Docker
+### Central module
