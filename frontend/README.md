@@ -1,7 +1,41 @@
-# Getting Started with Create React App
+## Prerequisites
+- Install [Node.js](https://nodejs.org/en/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technical Stack
+- [React](https://reactjs.org/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 
+## Projecct Structure 
+Grouping by file type
+```
+📦src
+ ┣ 📂api
+ ┣ 📂components
+ ┃ ┣ 📂Item
+ ┃ ┃ ┣ 📜Item.css
+ ┃ ┃ ┗ 📜Item.js
+ ┃ ┣ 📂ListItem
+ ┃ ┃ ┣ 📜ListItem.css
+ ┃ ┃ ┗ 📜ListItem.js
+ ┃ ┗ 📂PopupOrderForm
+ ┃ ┃ ┗ 📜PopupOrderForm.js
+ ┣ 📂configs
+ ┣ 📂pages
+ ┃ ┣ 📂App
+ ┃ ┃ ┣ 📜App.css
+ ┃ ┃ ┗ 📜App.tsx
+ ┃ ┗ 📂OrderForm
+ ┃ ┃ ┣ 📜OrderForm.css
+ ┃ ┃ ┗ 📜OrderForm.js
+ ┣ 📂utils
+ ┣ 📜App.test.tsx
+ ┣ 📜index.css
+ ┣ 📜index.tsx
+ ┣ 📜logo.svg
+ ┣ 📜react-app-env.d.ts
+ ┣ 📜reportWebVitals.ts
+ ┗ 📜setupTests.ts
+ ```
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,8 +73,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
