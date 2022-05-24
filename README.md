@@ -55,7 +55,7 @@ flowchart BT
 ## Technical Stack
 
 ### Order module
-- Language programing: Go
+- Programing language: Go
 - Web Framework: Gin
 ### Debt module
 
