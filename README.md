@@ -54,13 +54,27 @@ flowchart BT
 
 ## Technical Stack
 
+- MongoDB
+- RabbitMQ
+
 ### Order module
+
 - Programing language: Go
 - Web Framework: Gin
+
 ### Debt module
 
 ### Exhibition module
 
 ### User module
 
+- Spring Boot
+- Spring DevTools
+- Spring Webflux
+- Spring Security
+- GraphQL Java
+
 ### Central module
+
+- Vert.x
+- 
